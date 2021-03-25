@@ -1,9 +1,12 @@
 # Using-k-means-and-Variable-Neighborhood-Search-for-automatic-summarization-of-scientific-articles
 Using K-means and Variable Neighborhood Search for Automatic Summarization of Scientific Articles
 
-This work presents a method for summarizing scientific arti-cles from the arXive dataset using Variable Neighborhood Search (VNS)heuristics to automatically find the best summaries in terms of ROUGE-1  score  we  could  assemble  from  scientific  article  text  sentences.  Thenvectorizing the sentences using BERT pre-trained language model andaugmenting the vectors with topic embeddings obtained by applying theK-means  algorithm.  Finally,  training  the  Random  Forest  classificationmodel to find sentences suitable for the summary and compile a sum-mary  from  the  selected  sentences.  The  described  algorithm  producedsummaries with high ROUGE-1 scores (0.45 on average), so we are head-ing for further developments on a larger dataset.
+This work presents a method for summarizing scientific articles from the arXive dataset using Variable Neighborhood Search (VNS) heuristics to automatically find the best summaries in terms of ROUGE-1  score  we  could  assemble  from  scientific  article  text  sentences.  Then vectorizing the sentences using BERT pre-trained language model and augmenting the vectors with topic embeddings obtained by applying the K-means  algorithm.  Finally,  training  the  Random  Forest  classification model to find sentences suitable for the summary and compile a summary  from  the  selected  sentences.  The  described  algorithm  produced summaries with high ROUGE-1 scores (0.45 on average), so we are heading for further developments on a larger dataset.
 
 The method is fully described in the article https://link.springer.com/chapter/10.1007/978-3-030-69625-2_13.
+
+Original data (arXive articles collection by A Cohan, 2018) used in this experiment was obtained from here https://github.com/armancohan/long-summarization.
+The data sample we worked with can be downloaded from here https://yadi.sk/d/rBfaMTYeGt28CQ.
 
 It would be nice if you cite our article as:
 
